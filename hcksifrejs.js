@@ -28,7 +28,7 @@ var rs=randomstring(4,2);
 console.log("Sifre= "+rs);
 var sifre=rs;
 </script></p>
-<h4 style="font-family: 'comic sans ms'; margin-left: 249px;">Şifrenize bir isim verin:</h4>
+<h4 style="font-family: 'comic sans ms'; margin-left: 249px;">Şifrenize bir isim verin: </h4>
 <p><input id="txt1" style="margin-left: 249px;" type="text" /></p>
 <p><input id="btn1" onclick="txt2.value=txt1.value+' şifren: '+sifre" style="height: 50px; margin-left: 249px; width: 125px;" type="button" value="Üret" /></p>
 <p><input id="txt2" style="font-family: 'comic sans ms'; height: 50px; margin-left: 249px; width: 325px;" type="text" value="" /></p>
